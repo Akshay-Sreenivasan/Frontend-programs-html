@@ -1,0 +1,26 @@
+.r1{
+    background-color: orangered;
+    color: white;
+}
+.c1{
+    text-align: center;
+    margin-left: 100px;
+}
+.cp{
+    margin-left:-150px;
+    margin-right: 300px; 
+}
+.size{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+.ml{
+    margin-left: 150px;
+}
+.mm{
+    margin-left: 1200px ;
+}
+.mp{
+    padding: 5px;
+}
