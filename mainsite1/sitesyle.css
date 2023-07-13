@@ -4,11 +4,11 @@
 }
 .c1{
     text-align: center;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .cp{
-    margin-left:-150px;
-    margin-right: 300px; 
+    margin-left:-100px;
+    margin-right: 250px; 
 }
 .size{
     width: 15px;
@@ -19,8 +19,24 @@
     margin-left: 150px;
 }
 .mm{
-    margin-left: 1200px ;
+    margin-left: 800px ;
 }
 .mp{
     padding: 5px;
+}
+.ma{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.ff{
+    margin-top: 50px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.ss{
+    background-image: url(image/pexels-dariusz-grosa-736355.jpg);
+}
+#cl{
+    color: white;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
