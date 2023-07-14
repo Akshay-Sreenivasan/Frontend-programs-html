@@ -15,14 +15,17 @@
     height: 15px;
     margin: 10px;
 }
+.hh{
+    height: 10px;
+}
 .ml{
     margin-left: 150px;
 }
 .mm{
-    margin-left: 800px ;
+    margin-left: 1000px ;
 }
 .mp{
-    padding: 5px;
+    padding: 10px;
 }
 .ma{
     margin-top: 50px;
@@ -36,7 +39,32 @@
 .ss{
     background-image: url(image/pexels-dariusz-grosa-736355.jpg);
 }
-#cl{
+.cl{
     color: white;
     font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 40px;
+}
+.cc{
+    padding-left: 200px;
+    padding-top: 300px;
+    
+}
+.cf{
+    padding-left: 200px;
+    color: black;
+}
+#pp{
+    text-align: center;
+    padding-top: 20px;
+}
+.cs{
+    padding-left: 200px;
+    color: white;
+    font-family: 'Agdasima', sans-serif;
+}
+#pi{
+    padding-top: 100px;
+}
+#pl{
+    padding-top: 30px;
 }
