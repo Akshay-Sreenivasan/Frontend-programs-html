@@ -38,6 +38,8 @@
 }
 .ss{
     background-image: url(image/pexels-dariusz-grosa-736355.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .cl{
     color: white;
@@ -68,3 +70,38 @@
 #pl{
     padding-top: 30px;
 }
+.car{
+    height: 150px;
+    width: 450px;
+}
+.tt{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#pad{
+    padding: 10px;
+}
+.gallery{
+    height: 400px;
+    width: 450px;
+    margin: 20px;
+}
+#bor{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.541);
+    
+
+}
+.ga{
+    color: white;
+}
+.mar{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.head{
+    font-size: 30px;
+}
+.ed{
+    text-align: end;
+}
+.mml{;}
