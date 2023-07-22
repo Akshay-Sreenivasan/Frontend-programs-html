@@ -1,0 +1,32 @@
+@media(min-width:576px){
+.bg{
+    background-image: url(image/_.jpeg);
+    
+}
+#col{color: #ffffff;}
+.pad{
+    padding-top: 30px;
+}
+.mar{
+    margin-right: 45px;
+}
+.ck{
+    background-color:  white;
+    color: black;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+
+}
+.ck:hover
+{
+    background-color: #6ECEFF;
+}
+}
+
+@media(max-width:998px){
+
+}
