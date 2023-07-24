@@ -1,8 +1,17 @@
 @media(min-width:576px){
 .bg{
-    background-image: url(image/_.jpeg);
-    
+    background-image: url(image/1258.jpg);
+  background-color: #48afe2;
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+
 }
+/* .fl{
+    height: 960px;
+    width: 50%;
+    text-align: center;
+} */
 #col{color: #ffffff;}
 .pad{
     padding-top: 30px;
@@ -25,6 +34,16 @@
 {
     background-color: #6ECEFF;
 }
+.tx{
+    color: white;
+    padding-top: 150px;
+}
+.mar2{
+    margin-bottom:300px;
+    font-size: 56px;
+}
+
+
 }
 
 @media(max-width:998px){
