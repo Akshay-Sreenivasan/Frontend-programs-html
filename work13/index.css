@@ -1,17 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
 @media(min-width:576px){
 .bg{
-    background-image: url(image/1258.jpg);
-  background-color: #48afe2;
+  background-color: #32adeb;
   background-repeat: no-repeat;
   background-position: center;
 background-size: cover;
 
 }
-/* .fl{
+.fl{
     height: 960px;
-    width: 50%;
+    width: 70%;
+}
+.fp{
+    height: 100px;
+    width: 100px;
+}
+.gfg {
+
+    position: relative;
+}
+
+.ftp {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+.bg1{
+    background-image: url(image/cherry-graphic-design.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+
+}
+.bg2{
+    background-image: url(image/image-photography.jpg);
+    background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+
+}
+
+.stp {
+    position: absolute;
+    bottom: 450px;
+    left: 10px;
     text-align: center;
-} */
+}
+.stps {
+    position: absolute;
+    bottom: 300px;
+    left: 10px;
+    
+}
+.lnk{margin-left: 250px;
+    margin-right: 250px;}
+.head{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 45px;
+    font-family: 'Arbutus Slab', serif;
+}
+.para{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 18px;
+    }
+
+.btn-underline{
+    font-family: 'Fraunces', serif;
+    color: #23303B;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+}
+.btn-underline::after{
+    content: '';
+    position: absolute;
+    background-color: #FF7769;
+    height: 10px;
+    width: 110%;
+    left: -5%;
+    bottom: 0;
+    z-index: -1;
+    transition: height 0.4s;
+}
+.btn-underline:hover::after{
+    height: 100%;
+}
+
+
 #col{color: #ffffff;}
 .pad{
     padding-top: 30px;
@@ -38,8 +118,7 @@ background-size: cover;
     color: white;
     padding-top: 150px;
 }
-.mar2{
-    margin-bottom:300px;
+.fontsize{
     font-size: 56px;
 }
 
@@ -47,5 +126,57 @@ background-size: cover;
 }
 
 @media(max-width:998px){
+    .fp{
+        height: 100px;
+        width: 100px;
+    }
+    .gfg {
+    
+        position: relative;
+    }
+    
+    .ftp {
+        position: absolute;
+        top: 10px;
+        
+    }
+    
+    .stp {
+        position: absolute;
+        bottom: 300px;
+        left: 10px;
+    }
+    
+    
+    #col{color: #ffffff;}
+    .pad{
+        padding-top: 30px;
+    }
+    .mar{
+        margin-right: 45px;
+    }
+    .ck{
+        background-color:  white;
+        color: black;
+        padding: 12px 32px;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+    
+    }
+    .ck:hover
+    {
+        background-color: #6ECEFF;
+    }
+    .tx{
+        color: white;
+        padding-top: 150px;
+    }
+    .mar2{
+        margin-bottom:300px;
+        font-size: 28px;
+    }
 
 }
