@@ -109,3 +109,41 @@
 	text-decoration: none;
 	letter-spacing: 0.5px;
 }
+.font{
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+.mrg1{
+	margin-top: 25px;
+}
+.bg1{
+	background-color: #f2745f;
+	text-align: center;
+}
+.bg2{
+	background-color: #f3826f;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bor1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #da6856;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	line-height: 25px;
+	border-radius: 50%;
+}
+.btn1{
+	background-color: white;
+	color: #f2745f;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
