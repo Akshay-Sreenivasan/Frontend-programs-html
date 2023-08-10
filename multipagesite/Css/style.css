@@ -111,7 +111,8 @@
 }
 .font{
 	color: white;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	text-align: center;
 }
 .mrg1{
@@ -124,8 +125,12 @@
 .bg1{
 	background-color: #f2745f;
 	text-align: center;
-	margin-top: 80px;
-	padding-bottom: 50px;
+	height: 320px;
+	width: 420px;
+	position: relative;
+	top: 50px;
+	/* margin-top: 80px;
+	padding-bottom: 50px; */
 }
 .bg2{
 	background-color: #f3826f;
@@ -159,14 +164,14 @@
 	top: 10px;
 }
 .cls1{
-	margin-top: 130px;
-	position: relative;
-	left: 206px;
+	/* margin-top: 130px; */
+	/* position: relative;
+	left: 206px; */
 }
 .cls2{
-	margin-top: 130px;
-	position: relative;
-	right: 204px;
+	/* margin-top: 130px; */
+	/* position: relative;
+	right: 204px; */
 }
 .cls3{
 	margin-top: 25px;
@@ -179,20 +184,18 @@
 .cls5{
 margin-top: 100px;
 margin-bottom: 100px;
+
 }
 .cls5 img{
 	border: 10px solid #eaf0ff;
 	border-radius: 50%;
-	position: relative;
-	left: 380px;
+	
 }
 .cls5 p{
 	text-align: center;
-	position: relative;
-	left: 335px;
-	top: 20px;
 	color: black;
 	font-weight: 600;
+	padding-top: 20px;
 	font-family: 'Spectral', serif;
 	font-size: 20px;
 }
@@ -276,5 +279,22 @@ section#book-table .left-image img {
 	text-decoration: none;
 	letter-spacing: 0.5px;
 }
-
+.download{
+	background-color: #f2745f;
+	text-align: center;
+	color: white;
+	padding-bottom: 70px;
+	padding-top: 70px;
+	font-size: 25px;
+}
+.btn2{
+	background-color: white;
+	color: #f2745f;
+	font-size: 15px;
+	text-transform: uppercase;
+	width: 150px;
+	height: 40px;
+	font-size: 13px;
+	text-decoration: none;
+}
 
