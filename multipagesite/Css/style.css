@@ -163,16 +163,6 @@
 	position: relative;
 	top: 10px;
 }
-.cls1{
-	/* margin-top: 130px; */
-	/* position: relative;
-	left: 206px; */
-}
-.cls2{
-	/* margin-top: 130px; */
-	/* position: relative;
-	right: 204px; */
-}
 .cls3{
 	margin-top: 25px;
 	font-size: 13px;
@@ -297,4 +287,140 @@ section#book-table .left-image img {
 	font-size: 13px;
 	text-decoration: none;
 }
+.weeklyfood {
+	padding: 100px 0px;
+}
+.weeklyfood h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 80px;
+	font-size: 22px;
+	letter-spacing: 0.5PX;
+}
+.weeklyfood .items{
+	background-color: #f2f6ff;
+	padding: 30px;
+}
+.items h2 {
+	margin-top: 0px;
+	margin-bottom: 30px;
+	padding-bottom: 8px;
+	font-family: 'Spectral', serif;
+	font-size: 28px;
+	width: 100%;
+	border-bottom: 1px solid #d9dde5;
+	color: #121212;
+}
+
+.items img {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.items .price {
+	font-size: 17px;
+	color: #f2745f;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	padding: 8px 14px;
+	position: absolute;
+	margin-top: -40px;
+	background-color: rgba(250, 250, 250, 0.9);
+}
+
+.items .text-content {
+	background-color: #fff;
+	padding: 20px 20px 10px 20px;
+}
+
+.items h4 {
+	margin-top: 0px;
+	font-family: 'Spectral', serif;
+	font-size: 18px;
+	color: #121212;
+	font-weight: 600;
+}
+section.blog {
+	background-color: #f2f6ff;
+	padding: 100px 0px 70px 0px;
+}
+
+.blog .heading h2 {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 80px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #121212;
+}
+
+.post img {
+	width: 50%;
+	overflow: hidden;
+}
+
+.post{
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.post .right-content {
+	background-color: #fff;
+	width: 50%;
+	float: right;
+	padding: 20px;
+}
+
+.post .right-content h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 8px;
+	font-family: 'Spectral', serif;
+	font-size: 21px;
+	color: #121212;
+}
+
+.post .right-content span {
+	font-size: 13px;
+	color: #7a7a7a;
+	display: inline-block;
+	margin-bottom: 18px;
+}
+
+.post .right-content .text-button a {
+	font-size: 13px;
+	font-weight: 500;
+	color: #f2745f;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 12px;
+	display: inline-block;
+}
+
+.post .date {
+	font-size: 17px;
+	color: #f2745f;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	padding: 8px 14px;
+	position: absolute;
+	margin-top: -280px;
+	/* left: 15px; */
+	/* top: 0px; */
+	background-color: rgba(250, 250, 250, 0.9);
+}
+.sign-up{
+	background-image: url(../images/signup-bg.jpg);
+	padding: 100px 0px;
+	text-align: center;
+}
+.sign-up .heading{
+	color: white;	
+}
+
+
 
