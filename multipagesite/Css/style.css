@@ -414,13 +414,113 @@ section.blog {
 	background-color: rgba(250, 250, 250, 0.9);
 }
 .sign-up{
+	padding: 80px 0px;
 	background-image: url(../images/signup-bg.jpg);
 	padding: 100px 0px;
 	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
-.sign-up .heading{
-	color: white;	
+.sign-up .heading h2{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.sign-up button{
+	margin-left: -30px;
+	display: inline-block;
+	background-color: transparent;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 12px 20px;
+	border-radius: 3px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+	border: 1px solid #fff;
+}
+.sign-up input{
+	margin-right: -30px;
+	height: 44px;
+	border: 3px;
+	background-color: rgba(250, 250, 250, 0.9);
+	color: #5a5a5a;
+	box-shadow: none;
+	outline: none!;
+} 
+/* .sign-up form{
+	position: relative;
+	left */
+
+footer {
+	background-color: #363e50;
+	line-height: 130px;
+	text-align: center;
 }
 
+footer p {
+	line-height: 120px;
+	color: #fff;
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+footer p em {
+	font-style: normal;
+	color: #f2745f;
+	font-weight: 500;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+footer ul li i {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	text-align: center;
+	line-height: 36px!important;
+	background-color: #fff;
+	border-radius: 50%;
+	color: #363e50;
+	transition: all 0.5s;
+}
+
+footer ul li i:hover {
+	background-color: #f2745f;	
+}
+@media (max-width: 991px){
+	.contact-info {
+		margin-top: 80px;
+	}
+	.cook-delecious .first-image {
+		margin-right: 0px;
+		margin-top: 0%;
+		padding: 0px 10%;
+	}
+	.cook-delecious .second-image {
+		margin-left: 0px;
+		margin-top: 0%;
+		padding: 0px 10%;
+	}
+	#book-table{
+		padding-bottom: 500px;
+	}
+}
 
 
