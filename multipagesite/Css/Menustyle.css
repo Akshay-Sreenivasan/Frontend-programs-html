@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@1,300&family=Spectral:wght@200&display=swap');
 
-.header {
+.header-pages {
     width: 100%;
     padding: 0;
     z-index: 10000;
@@ -72,7 +72,7 @@
 .navbar-inverse .navbar-toggler:hover, .navbar-inverse .navbar-toggler:focus {
 	background-color: #f2745f;
 }
-.txt1{
+.banner{
 	padding: 80px 0px;
 	background-image: url(../images/banner-bg.jpg);
 	background-repeat: no-repeat;
@@ -80,21 +80,21 @@
 
 	text-align: center;
 }
-.txt1 h6{
+.banner h6{
 	color: white;
 	font-family: 'Roboto', sans-serif;
 }
-.txt1 h1{
+.banner h1{
 	color: white;
 	font-size: 48px;
     text-transform: uppercase;
 	font-family: 'Spectral', serif;
 }
-.txt1 p{
+.banner p{
 	color: white;
 	font-size: 14px;
 }
-.txt1 .primary-button {
+.banner .primary-button {
 	margin-top: 30px;
 	
 }
@@ -214,4 +214,13 @@ section.dinner-menu .price {
 	border-bottom: 1px solid #d9dde5;
 	color: #121212;
 }
-
+.blog-content{
+	margin-top: 100px;
+}
+.blog-content img{
+	position: relative;
+	left: 550px;
+}
+/* .blog-content .date{
+	
+} */
