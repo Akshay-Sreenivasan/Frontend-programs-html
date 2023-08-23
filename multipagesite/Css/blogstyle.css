@@ -103,3 +103,17 @@ section.blog-page .page-number li a:hover {
 	background-color: #f2745f;
 	color: #fff;
 }
+
+@media (max-width: 991px){
+	.postp .date {
+		font-size: 17px;
+		color: #f2745f;
+		font-weight: 500;
+		letter-spacing: 0.5px;
+		padding: 8px 14px;
+		position: absolute;
+		margin-top: -230px;
+		/* left: 15px; */
+		background-color: rgba(250, 250, 250, 0.9);
+	}
+}
