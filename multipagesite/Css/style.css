@@ -537,7 +537,9 @@ footer ul li i:hover {
 		position: relative;
 		left: 250px;
 		top: 6px;
-		
+	}
+	.navbar-inverse button{
+		outline: none;
 	}
 
 	.contact-info {
