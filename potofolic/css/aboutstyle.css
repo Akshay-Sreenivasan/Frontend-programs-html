@@ -1,3 +1,42 @@
 body{
+    background: url(../images/bg.jpg);
+}
+#aboutnav nav{
     background: black;
+}
+#aboutnav nav .paddd{
+    margin-left: 292.500px;
+    margin-right: 292.500px;
+}
+#aboutnav .name{
+    color: #fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+#aboutnav .othersss{
+    padding-left: 500px;
+    font-family: "Raleway", sans-serif;
+}
+#aboutnav .othersss li a{
+    color: #fff;
+}
+#aboutnav .othersss li a .active{
+    border-bottom: 2px #18d26e solid;
+}
+#aboutnav .othersss li a:hover{
+    border-bottom: 2px #18d26e solid;
+}
+#aboutme{
+    background-color: #000;
+    opacity: 70%;
+    margin-left: 292.500px;
+    margin-right: 292.500px;
+    padding-bottom: 1000px;
+}
+#aboutcontent{
+    opacity: 100%;
 }
