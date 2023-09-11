@@ -40,3 +40,51 @@
 # s=set(y)
 # print(s)
 # ----------------------------------------
+#-----------------------------------------
+# if(10<8):
+#     print("Greater")
+# else:
+#     print("Smaller")
+#-----------------------------------------
+# if(10==20):
+#     print("lesser")
+# elif(20<5):
+#     print("greater")
+# else:
+#     print("invalid")
+#-----------------------------------------
+# if(10<20):
+#     if(10<10):
+#         print("Happy")
+#     else:
+#         print("not happy")
+# else:
+#     print("not very happy")
+#------------------------------------------
+#FInd greater number from the 3 digits given by the user------
+# a=int(input("Enter the first value"))
+# b=int(input("Enter the Second value"))
+# c=int(input("Enter the thrid value"))
+# if(a>b):
+#     if(a>c):
+#         print("First value is greater")
+#     else:
+#         print("Thrid value is greater")
+# elif(b>c):
+#     print("Second value is greater")
+# else:
+#     print("Thrid value is greater")
+#-----------------------------------------
+# check wether the given number is even or odd-------
+# a=int(input("Enter the value"))
+# if(a%2==0):
+#     print("Even")
+# else:
+#     print("odd")
+# ------------------------------------------
+# leap yrar----------------------------------
+# a=int(input("Enter the Year"))
+# if(a%4==0):
+#     print("Leap Year")
+# else:
+#     print("Not a leap year")
