@@ -88,3 +88,28 @@
 #     print("Leap Year")
 # else:
 #     print("Not a leap year")
+# 12/9--------------------------------------------
+# WAP to check wether the last digit of a number is divisible by three
+a=int(input("Enter the value"))
+x=a%10
+if(x%3==0):
+    print("Number is divisible by three")
+else:
+    print("Number is not divisible")
+#-----------------------------------------------------
+#WAP to display "hello" is given number is divisible by 5 or print bye
+a=int(input("Enter the value"))
+if(a%5==0):
+    print("Hello")
+else:
+    print("Bye")
+#WAP to accept percentage-----------------------------------------------------------
+a=int(input("Enter Percentage"))
+if(a>90):
+    print("A Grade")
+elif(a>80 and a<=90):
+    print("B Grade")
+elif(a>=60 and a<=80):
+    print("C Grade")
+elif(a<=60):
+    print("D Grade")
