@@ -1,6 +1,6 @@
 # WAP to accept a number from 1 to 7 and display name of the day python
 a=int(input("Enter the day from 1 to 7"))
-d={1:"Sunday",1:"Monday",1:"Tuesday",1:"Wednesday",1:"Thursday",1:"Friday",1:"Saturday",}
+d={1:"Sunday",2:"Monday",3:"Tuesday",4:"Wednesday",5:"Thursday",6:"Friday",7:"Saturday",}
 if(a==1):
     print(d[1])
 elif(a==2):
